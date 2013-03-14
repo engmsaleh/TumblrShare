@@ -15,10 +15,15 @@
 
 
 #pragma mark - TUMBLR STATIC STRINGS
+// TO BE REPLACES WITH YOUR APP INFO FROM TUMBLR
 static NSString *kTumblrMyClientID = @"Yyj9ZOua8IlObJJqHRVPizJO08Il5hJMfZILPqTYHkVv9MIdoy";
 static NSString *kTumblrMyClientSecret =  @"s7qaTifRHRiVFKcFRjD4jbhAYr1kkkAzMyyzGH87P5EK1EiqI5";
 static NSString *kTumblrKeychainItemName = @"OAuth2_Adevarul";
 static NSString *kTumblrRedirectURI = @"http://www.adevarul.ro/callback/oauth";
+
+
+
+
 static NSString *kTumblrOAuthScope = @"posting";
 static NSString *kTumblrRequestTokenURL = @"https://www.tumblr.com/oauth/request_token";
 static NSString *kTumblrAccessTokenURL = @"https://www.tumblr.com/oauth/access_token";
